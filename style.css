@@ -82,3 +82,49 @@ p {
     color: #1f2937;
     border: 2px solid #1f2937;
 }
+/* Featured project section */
+
+.featured-project {
+    max-width: 900px;
+    margin: 20px auto 80px;
+    padding: 60px 50px;
+    background-color: white;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.section-label {
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+.featured-project h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.featured-project > p {
+    max-width: 700px;
+    margin: 0 auto 30px;
+}
+
+.project-details {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin-bottom: 30px;
+}
+
+.project-details strong {
+    font-size: 14px;
+}
+
+.project-details p {
+    font-size: 15px;
+    margin-top: 5px;
+}
+.project-details {
+    display: flex;
+}
