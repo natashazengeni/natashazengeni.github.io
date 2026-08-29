@@ -194,18 +194,12 @@ display: flex;
 justify-content: center;
 }
 
-.photo-placeholder {
+.about-photo img {
 width: 260px;
 height: 320px;
-background-color: white;
-border: 1px solid #d1d5db;
+object-fit: cover;
 border-radius: 12px;
-display: flex;
-justify-content: center;
-align-items: center;
-text-align: center;
-color: #9ca3af;
-font-size: 14px;
+border: 1px solid #d1d5db;
 }
 
 .about-content h2 {
